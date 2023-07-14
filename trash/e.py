@@ -1,0 +1,18 @@
+from tkinter import *
+window=Tk()
+window.geometry('800x600')
+window.resizable(0,0)
+Label(window,text='',fg='red').pack()
+Label(window,text='',fg='red').pack()
+Label(window,text='',fg='red').pack()
+Label(window,text='',fg='red').pack()
+
+label=Label(window,text='USER ID',fg='red',font=('Helvetica',15),justify='left')
+label.place(x=200,y=100)
+labe2=Label(window,text='PASSWORD',fg='red',font=('Helvetica',15))
+labe2.place(x=200,y=200)
+entry1=Entry(window)
+entry1.place(x=300,y=100,height=30)
+entry2=Entry(window)
+entry2.place(x=330,y=200,height=30)
+window.mainloop()
